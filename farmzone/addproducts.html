@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.1/dist/sweetalert2.all.min.js"></script>
+
+  <title>item</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html"><img class="logo" src="../images/logo.jpg" alt="logo" width="80"
+        height="80"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="viewproducts.html">Products</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="addproducts.html">Add-Products<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+      </ul>
+      <a class="nav-link" href="cart.html">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row ">
+        <div class="col-lg-10 col-md-8 ml-auto">
+                <div class="col-9">
+                    <div class="card">
+                        <div class="card-title text-center mt-">
+                            <h3>Add new Fertilizers</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="newItemForm">
+                                <div class="form-group">
+                                    <label for="productname">Fertilizers Name:</label>
+                                    <input type="text" class="form-control" id="productname"
+                                        placeholder="Enter Fertilizer Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="productdes">Description</label>
+                                    <input type="text" class="form-control" id="productdes"
+                                        placeholder="Enter Fertilizer Description">
+                                </div>
+                                <div class="form-group">
+                                    <label for="productImgUrl">Fertilizers Image URL</label>
+                                    <input type="text" class="form-control" id="productImgUrl"
+                                        placeholder="Enter Fertilizer Price">
+
+                                </div>
+                                <button class="btn btn-dark mt-5 mx-auto d-block" type="submit">Add
+                                    Fertilizer</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+  <main class="content">
+    <h2><b>Fertilizers</b></h2>
+    <p class="text-justify">All plants need 17 mineral elements for normal growth. Of these, three are most in demand by
+      plants and may need replacement.
+      These three—nitrogen, phosphorus and potassium (N-P-K)—are what is found in most commercial brands of fertilizers.
+      Fertilizers are
+      classified as either organic, produced by nature, or inorganic, manufactured commercially. Both types supply the
+      exact same nutrients;
+      the plants cannot tell the difference. There are advantages and disadvantages to both.Many chemicals are used in
+      lawns and gardens by homeowners.
+      These are mainly fertilizers and pesticides (herbicides, insecticides and fungicides). These chemicals are very
+      effective when used in the proper place,
+      using the labeled directions. Modern agriculture could not feed us without them.Before using any chemical it is
+      important to ask yourself some questions:
+      Do I have a clear indication that this product is needed? Is it the proper time to use it? Do I have the equipment
+      and skills for proper application? To prevent
+      problems, one must always read and follow the labeled directions. This label is a legally binding document between
+      the seller and the user. Avoid the "more is better"
+      approach with these products. This is true with all of them, but especially true with fertilizers which are often
+      applied in excessive amounts in hopes of coaxing a better
+      performance from plants. This is counterproductive and ends up causing toxicity to plants and polluting the
+      environment.</p>
+  </main>
+  <footer>
+    <div class="row">
+      <div class="col-md-4">
+        <h4> <a href="about.html">About Us</a></h4>
+        <p>We are a family-owned and operated fertilizer shop that has been serving the community for over 2 years. We
+          are committed to providing our customers with the highest quality fertilizer products and services.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Contact Us</h4>
+        <p>ABD Road<br>
+          Kakinada, AP 522262<br>
+          9909909901</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Stay Connected</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/fertilizershop">Facebook</a></li>
+          <li><a href="https://twitter.com/fertilizershop">Twitter</a></li>
+          <li><a href="https://www.instagram.com/fertilizershop">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      Copyright &copy; 2023 <i>MDR Fertilizers</i>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="../js/itemController.js"></script>
+  <script src="../js/fertilizer.js"></script>
+</body>
+
+</html>

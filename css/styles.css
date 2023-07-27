@@ -1,0 +1,157 @@
+.logo {
+    border-radius: 50%;
+  }
+  /* About-Us styles */
+
+.aboutus_section {
+height: auto;
+background-color: #e3e4e6;
+text-align: center;
+}
+/* navbar */
+.navbar {
+  color: #869ac4;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title img {
+  width: 100%;
+  height: auto;
+}
+/* products */
+.products {
+  align-content: center;
+}
+
+.carousel-item img {
+  height: 800px; 
+  width: 100%;
+  object-fit: cover; 
+}
+.card-text {
+  text-align: justify;
+}
+body.products-page {
+  background-image: url(../images/bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products{
+  padding: 20px;
+  background-color: #d4d3d3;
+}
+
+
+footer {
+  padding: 20px;
+  background-color: #d3e1f1;
+  color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:justify;
+}
+
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+}
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  padding: 20px;
+}
+
+.about-section,
+.team-section,
+.company-section,
+.past-employees-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.team-list,
+.past-employees-list {
+  display: flex;
+  list-style: none;
+}
+
+.team-member,
+.past-employee {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.team-member img,
+.past-employee img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.team-section {
+  text-align: center;
+}
+
+.team-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-member {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member img {
+  display: block;
+  margin: 0 auto;
+}
+.testimonials-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  margin-bottom: 20px;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.cartbody {
+  background-color: #aaa9a9;
+}
+.Agro {
+  background-color: #c4c1c1;
+}
+.text-justify {
+  text-align: justify;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.container-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background-color: #949494;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid #b3b3b3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
